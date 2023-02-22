@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(230, 230, 230);
+  margin: 0;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+  height: 80px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left a {
+  color: black;
+  padding-left: 30px;
+}
+
+.nav-left ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.logo img {
+  width: 40px;
+  height: 27px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.nav-right {
+  background-color: black;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin-right: 90px;
+}
+
+.nav-right a {
+  color: white;
+}
+
+/* contact */
+form {
+  width: 350px;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form div {
+  margin-top: 10px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 15px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  color: white;
+  background-color: rgb(21, 21, 21);
+  padding: 10px 25px;
+  font-size: 15px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 270px;
+}
